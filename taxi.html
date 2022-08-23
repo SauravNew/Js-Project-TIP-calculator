@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="taxi.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Tip Calculator</h2><br>
+        <section>
+            <div class="items">
+            
+               
+                <label for="Bill" class="bill_value" id="lbl">Bill</label>
+                <div class="inputs">
+                    <span class="rs"> &#8377</span>
+                <input type="number" class="Val" id="BillValue" 
+                placeholder="Enter Bill Value">
+                </div>   
+            </div>
+            <div class="items">
+                <span class="tip" id="lbl">Tip %</span>
+                <input type="number" class="val" id="tipValue" placeholder="Enter Tip %"></input>
+                
+            </div>
+            <hr>
+            <div class="items">
+                <span class="bill_value" id="lbl"> Tip </span>
+                <span class="Val" id="Tip_perc"> &#8377 0</span>
+                
+            </div>
+        </section>
+        <section>
+            <div class="items">
+                <span class="bill_value" id="lbl"> Total Amount</span>
+                <span class="Val" id="Total_Amount">  &#8377 0</span>   
+            </div>
+            
+        </section>
+        <div class="items">
+            <section>
+                <button id="calculate">Calculate</button>
+            </section>
+        </div>
+    </div>
+    <script src="taxi.js"></script>
+</body>
+</html>
